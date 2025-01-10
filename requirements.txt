@@ -3,3 +3,9 @@ pandas
 scikit-learn
 geopy
 google-generativeai
+boto3
+python-dotenv
+mysql-connector-python
+sqlalchemy
+matplotlib
+seaborn
