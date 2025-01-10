@@ -90,7 +90,7 @@ def get_nearby_restaurants():
 if st.sidebar.button('Nearby Restaurants'):
     get_nearby_restaurants()
 
-api_key = "AIzaSyBYcwsNN5ABnYugCo5Qz-ONwC-iW5SGP34" 
+api_key = st.secrets["gemini_api_key"] 
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-pro")
 
