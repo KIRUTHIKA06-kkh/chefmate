@@ -5,10 +5,10 @@ print('starting')
 load_dotenv()
 try:
     mydb = mysql.connector.connect(
-       host = 'chefmatedb.c3i8ggm6665z.ap-south-1.rds.amazonaws.com',
+       host = 'chefmatedb.cvwcymg00994.ap-south-1.rds.amazonaws.com',
        port = 3306,
        user = 'admin',
-       password = os.getenv('dbpassword'))
+       password = os.getenv('passworddb'))
 
     print("connected")
     
